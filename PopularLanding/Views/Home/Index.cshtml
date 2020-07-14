@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section id="banner" class="d-flex align-items-center">
+    @Html.Partial("~/Views/Home/banner.cshtml")
+
+</section>
+<main id="main">
+
+    <section id="about" class="about" style="background-color:#018BB0">
+        @Html.Partial("~/Views/Home/about.cshtml")
+    </section>
+    <section id="blog" class="blog">
+        @Html.Partial("~/Views/Home/blog.cshtml")
+    </section>
+    <section id="tips" class="tips">
+        @Html.Partial("~/Views/Home/tips.cshtml")
+    </section>
+    <section id="finanzas" class="finanzas section-bg" style="background-color:#012169 !important">
+        @Html.Partial("~/Views/Home/finanzas.cshtml")
+    </section>
+    <section id="plan" class="plan">
+        @Html.Partial("~/Views/Home/plan.cshtml")
+    </section>
+    <section id="last" class="last">
+        @Html.Partial("~/Views/Home/last.cshtml")
+    </section>
+</main>
